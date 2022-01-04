@@ -58,7 +58,6 @@ if checks == 'y' or "Y":
                 print(f'{tokens} | Valid token without payment-sources')
                 f = open('valid.txt', 'a')
                 f.write(f"{tokens}\n")
-            os.system("cls")
     print(f'''
 Valid: {b}. Phone locked: {c}. Invalid: {a}. With payment-sources: {paymentskolvo}.
 Valid without payment-sources tokens saved in valid.txt.
